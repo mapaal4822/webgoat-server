@@ -8,6 +8,8 @@
         <artifactId>webgoat-parent</artifactId>
         <version>8.2.3-SNAPSHOT</version>
     </parent>
+ <version>8.2.3-SNAPSHOT</version>
+ <version>8.2.3-SNAPSHOT</version>
    <version>8.2.3-SNAPSHOT</version>
     <properties>
         <start-class>org.owasp.webgoat.StartWebGoat</start-class>
