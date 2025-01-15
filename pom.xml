@@ -227,3 +227,8 @@
     </build>
 
 </project>
+ <dependencies>
+        <dependency>
+            <groupId>org.owasp.webgoat</groupId>
+            <artifactId>webgoat-container</artifactId>
+            <version>${project.version}</version>
