@@ -1,5 +1,5 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <artifactId>webgoat-server</artifactId>
     <packaging>jar</packaging>
@@ -8,7 +8,9 @@
         <artifactId>webgoat-parent</artifactId>
         <version>8.2.3-SNAPSHOT</version>
     </parent>
-
+ <version>8.2.3-SNAPSHOT</version>
+ <version>8.2.3-SNAPSHOT</version>
+   <version>8.2.3-SNAPSHOT</version>
     <properties>
         <start-class>org.owasp.webgoat.StartWebGoat</start-class>
     </properties>
@@ -187,7 +189,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
                     <excludeDevtools>true</excludeDevtools>
-                    <!-- See http://docs.spring.io/spring-boot/docs/current/reference/html/howto-build.html#howto-extract-specific-libraries-when-an-executable-jar-runs -->
+                    <!-- An insecure App See http://docs.spring.io/spring-boot/docs/current/reference/html/howto-build.html#howto-extract-specific-libraries-when-an-executable-jar-runs -->
                     <requiresUnpack>
                         <dependency>
                             <groupId>org.thymeleaf.extra</groupId>
